@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugos Seneida</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* Encabezado y barra de navegación */
+        header {
+            background-color: #1b5e20;
+            color: white;
+            padding: 12px 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.3rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+            font-size: 0.9rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Sección de bienvenida / inicio */
+        #inicio {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #e8f5e9;
+        }
+
+        #inicio h2 {
+            color: #1b5e20;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        #inicio p {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        /* Botón de WhatsApp */
+        .btn-whatsapp {
+            display: inline-block;
+            background-color: #25d366;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #1ebe5d;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Jugos Seneida</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#menu">Menú</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio">
+        <h2>¡Bienvenidos a Jugos Seneida!</h2>
+        <p>"Sabor natural que te llena de vida, el verdadero sabor fresco."</p>
+        <a href="https://wa.me/18299150609" class="btn-whatsapp" target="_blank">Pedir por WhatsApp 📱</a>
+    </section>
+
+    <!-- Sección Menú -->
+    <section id="menu" style="padding: 40px 20px; text-align: center;">
+        <h2 style="color: #1b5e20; margin-bottom: 30px;">Nuestros Fríos (Menú)</h2>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+            
+            <!-- Tamarindo -->
+            <div style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; width: 160px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background: #fff;">
+                <img src="tamarindo.jpg" alt="Jugo de Tamarindo" style="width: 100%; height: 140px; object-fit: cover; border-radius: 8px;">
+                <h3 style="margin: 10px 0 5px 0; font-size: 1rem;">Jugo de Tamarindo</h3>
+                <p style="color: #2e7d32; font-weight: bold; margin: 0;">RD$ 40</p>
+            </div>
+
+            <!-- Avena con Chinola -->
+            <div style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; width: 160px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background: #fff;">
+                <img src="avena-chinola.jpg" alt="Avena con Chinola" style="width: 100%; height: 140px; object-fit: cover; border-radius: 8px;">
+                <h3 style="margin: 10px 0 5px 0; font-size: 1rem;">Avena con Chinola</h3>
+                <p style="color: #2e7d32; font-weight: bold; margin: 0;">RD$ 40</p>
+            </div>
+
+            <!-- Jugo de Naranja -->
+            <div style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; width: 160px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background: #fff;">
+                <img src="naranja.jpg" alt="Jugo de Naranja" style="width: 100%; height: 140px; object-fit: cover; border-radius: 8px;">
+                <h3 style="margin: 10px 0 5px 0; font-size: 1rem;">Jugo de Naranja</h3>
+                <p style="color: #2e7d32; font-weight: bold; margin: 0;">RD$ 40</p>
+            </div>
+
+            <!-- Jugo de Toronja -->
+            <div style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; width: 160px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background: #fff;">
+                <img src="toronja.jpg" alt="Jugo de Toronja" style="width: 100%; height: 140px; object-fit: cover; border-radius: 8px;">
+                <h3 style="margin: 10px 0 5px 0; font-size: 1rem;">Jugo de Toronja</h3>
+                <p style="color: #2e7d32; font-weight: bold; margin: 0;">RD$ 40</p>
+            </div>
+
+            <!-- Avena con Limón -->
+            <div style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; width: 160px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background: #fff;">
+                <img src="avena-limon.jpg" alt="Avena y Limón" style="width: 100%; height: 140px; object-fit: cover; border-radius: 8px;">
+                <h3 style="margin: 10px 0 5px 0; font-size: 1rem;">Avena y Limón</h3>
+                <p style="color: #2e7d32; font-weight: bold; margin: 0;">RD$ 40</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" style="background-color: #1b5e20; color: white; text-align: center; padding: 30px 20px; margin-top: 40px;">
+        <h3>Contacto</h3>
+        <p>Realiza tus encargos directamente por nuestro WhatsApp.</p>
+        <a href="https://wa.me/18299150609" class="btn-whatsapp" target="_blank">Escribir por WhatsApp</a>
+    </section>
+
+</body>
+</html>
